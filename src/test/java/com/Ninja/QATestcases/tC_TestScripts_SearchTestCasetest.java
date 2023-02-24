@@ -76,7 +76,7 @@ public class tC_TestScripts_SearchTestCasetest extends BaseClass {
 				"Not getting the Error Msg for Non Existing Product");
 
 	}
-	
+	//Changed here 
 	@Test(priority = 3)
 	public void Verify_Searchingwithout_giving_Product_Name() {
 

@@ -1,0 +1,7 @@
+com\Ninja_qa\Utils_BaseTest\CustomExtentReports.class
+com\Ninja\qa\Pages\HomePage.class
+com\Ninja\qa\ITTestListeners\MyListeners.class
+com\Ninja\qa\Pages\SearchPage.class
+com\Ninja\qa\Pages\SignInPage.class
+com\Ninja_qa\Utils_BaseTest\ResuableUtilities.class
+com\Ninja\qa\Pages\AccountPage.class

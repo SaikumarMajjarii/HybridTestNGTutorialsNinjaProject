@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T13:44:07 IST" name="Suite" finished-at="2023-02-24T13:44:39 IST" duration-ms="31856">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T13:44:07 IST" name="Test" finished-at="2023-02-24T13:44:39 IST" duration-ms="31856">
+      <class name="com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest">
+        <test-method is-config="true" signature="TakeMetoHomePage()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:07 IST" name="TakeMetoHomePage" finished-at="2023-02-24T13:44:12 IST" duration-ms="4881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeMetoHomePage -->
+        <test-method signature="Verify_Searchingwith_a_existing_Product_Name()[pri:1, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:12 IST" name="Verify_Searchingwith_a_existing_Product_Name" finished-at="2023-02-24T13:44:12 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Searchingwith_a_existing_Product_Name -->
+        <test-method is-config="true" signature="TearDownCloseBrowsers()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:13 IST" name="TearDownCloseBrowsers" finished-at="2023-02-24T13:44:14 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownCloseBrowsers -->
+        <test-method is-config="true" signature="TakeMetoHomePage()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:14 IST" name="TakeMetoHomePage" finished-at="2023-02-24T13:44:18 IST" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeMetoHomePage -->
+        <test-method signature="Verify_Searchingwith_a_non_existing_Product_Name()[pri:2, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:18 IST" name="Verify_Searchingwith_a_non_existing_Product_Name" finished-at="2023-02-24T13:44:19 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Searchingwith_a_non_existing_Product_Name -->
+        <test-method is-config="true" signature="TearDownCloseBrowsers()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:19 IST" name="TearDownCloseBrowsers" finished-at="2023-02-24T13:44:20 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownCloseBrowsers -->
+        <test-method is-config="true" signature="TakeMetoHomePage()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:20 IST" name="TakeMetoHomePage" finished-at="2023-02-24T13:44:23 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeMetoHomePage -->
+        <test-method signature="Verify_Searchingwithout_giving_Product_Name()[pri:3, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:23 IST" name="Verify_Searchingwithout_giving_Product_Name" finished-at="2023-02-24T13:44:24 IST" duration-ms="588" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Not getting the Error Msg for Non Existing Product expected [There is no product that] but found [There is no product that matches the search criteria.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Not getting the Error Msg for Non Existing Product expected [There is no product that] but found [There is no product that matches the search criteria.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest.Verify_Searchingwithout_giving_Product_Name(tC_TestScripts_SearchTestCasetest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Searchingwithout_giving_Product_Name -->
+        <test-method is-config="true" signature="TearDownCloseBrowsers()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest@229c6181]" started-at="2023-02-24T13:44:24 IST" name="TearDownCloseBrowsers" finished-at="2023-02-24T13:44:25 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownCloseBrowsers -->
+      </class> <!-- com.Ninja.QATestcases.tC_TestScripts_SearchTestCasetest -->
+      <class name="com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest">
+        <test-method is-config="true" signature="TakeMetoHomePage()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:25 IST" name="TakeMetoHomePage" finished-at="2023-02-24T13:44:30 IST" duration-ms="4541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeMetoHomePage -->
+        <test-method signature="LoginUsingInvalidCredentials()[pri:2, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:30 IST" name="LoginUsingInvalidCredentials" finished-at="2023-02-24T13:44:30 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUsingInvalidCredentials -->
+        <test-method is-config="true" signature="TearDownCloseBrowsers()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:31 IST" name="TearDownCloseBrowsers" finished-at="2023-02-24T13:44:32 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownCloseBrowsers -->
+        <test-method is-config="true" signature="TakeMetoHomePage()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:32 IST" name="TakeMetoHomePage" finished-at="2023-02-24T13:44:35 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeMetoHomePage -->
+        <test-method signature="ExceededAllowedAttempts()[pri:3, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:35 IST" name="ExceededAllowedAttempts" finished-at="2023-02-24T13:44:38 IST" duration-ms="2515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExceededAllowedAttempts -->
+        <test-method is-config="true" signature="TearDownCloseBrowsers()[pri:0, instance:com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest@2034b64c]" started-at="2023-02-24T13:44:38 IST" name="TearDownCloseBrowsers" finished-at="2023-02-24T13:44:39 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownCloseBrowsers -->
+      </class> <!-- com.Ninja.QATestcases.tC_TestScripts_LoginTestCasestest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

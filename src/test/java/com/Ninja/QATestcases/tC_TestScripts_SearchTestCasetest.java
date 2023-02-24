@@ -89,7 +89,7 @@ public class tC_TestScripts_SearchTestCasetest extends BaseClass {
 				.visibilityOfElementLocated(By.xpath("//*[@class='col-sm-12']/p/following-sibling::p")));
 		String ErrorMsg = Driver.findElement(By.xpath("//*[@class='col-sm-12']/p/following-sibling::p")).getText();
 
-		Assert.assertEquals(ErrorMsg, "There is no product that",
+		Assert.assertEquals(ErrorMsg, "There is no product that matches the search criteria.",
 				"Not getting the Error Msg for Non Existing Product");
 
 	}
